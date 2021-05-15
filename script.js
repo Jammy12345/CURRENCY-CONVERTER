@@ -37,6 +37,6 @@
           document.querySelector(".response").innerHTML = selector2 +" : "+result;
           document.querySelector(".response").style.color = "rgb(121, 5, 5)";
         }}
-      httpRequest.open('GET','https://api.exchangeratesapi.io/latest')
+      httpRequest.open('GET','http://api.exchangeratesapi.io/v1/latest?access_key=06b1945760b7468cbdd88218c9f30f60')
       httpRequest.send()
     }
